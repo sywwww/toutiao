@@ -76,7 +76,7 @@ public class MessageController {
             model.addAttribute("conversations", conversations);
             return "letter";
         } catch (Exception e) {
-            logger.error("获取站内信列表失败" + e.getMessage());
+            logger.error("获取站内信list失败" + e.getMessage());
         }
         return "letter";
     }
